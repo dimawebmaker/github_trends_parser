@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php-curl-class/php-curl-class": "^8.6",
+        "imangazaliev/didom": "^1.14",
+        "thingengineer/mysqli-database-class": "dev-master"
+    }
+}

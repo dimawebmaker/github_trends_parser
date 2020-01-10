@@ -1,0 +1,181 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "714c0e941a5bf20492b785519c3a23d8",
+    "packages": [
+        {
+            "name": "imangazaliev/didom",
+            "version": "1.14.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Imangazaliev/DiDOM.git",
+                "reference": "a8389cc26897f6bb8843363b4ea16e7ef16fb3c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Imangazaliev/DiDOM/zipball/a8389cc26897f6bb8843363b4ea16e7ef16fb3c3",
+                "reference": "a8389cc26897f6bb8843363b4ea16e7ef16fb3c3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-iconv": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.9",
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DiDom\\": "src/DiDom/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Imangazaliev Muhammad",
+                    "email": "imangazalievm@gmail.com"
+                }
+            ],
+            "description": "Simple and fast HTML parser",
+            "homepage": "https://github.com/Imangazaliev/DiDOM",
+            "keywords": [
+                "didom",
+                "html",
+                "parser",
+                "xml"
+            ],
+            "time": "2019-01-17T11:01:36+00:00"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "8.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "54be433a7299c15b024ba808e10a96c5d5791d99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/54be433a7299c15b024ba808e10a96c5d5791d99",
+                "reference": "54be433a7299c15b024ba808e10a96c5d5791d99",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "phpunit/phpunit": "*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "API-Client",
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http-client",
+                "http-proxy",
+                "json",
+                "php",
+                "php-curl",
+                "php-curl-library",
+                "proxy",
+                "requests",
+                "restful",
+                "web-scraper",
+                "web-scraping ",
+                "web-service",
+                "xml"
+            ],
+            "time": "2019-11-17T08:37:31+00:00"
+        },
+        {
+            "name": "thingengineer/mysqli-database-class",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class.git",
+                "reference": "03dbce1c7f1c9def315ad8ef52e1f5c0a806d6ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThingEngineer/PHP-MySQLi-Database-Class/zipball/03dbce1c7f1c9def315ad8ef52e1f5c0a806d6ed",
+                "reference": "03dbce1c7f1c9def315ad8ef52e1f5c0a806d6ed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "MysqliDb.php",
+                    "dbObject.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Campbell",
+                    "email": "josh.lee.campbell@gmail.com",
+                    "homepage": "https://github.com/thingengineer",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander V. Butenko",
+                    "email": "a.butenka@gmail.com",
+                    "homepage": "http://smarttechdo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements",
+            "time": "2019-08-24T09:28:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "thingengineer/mysqli-database-class": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
